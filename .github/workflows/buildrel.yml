@@ -62,5 +62,5 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: 'artifacts/MapDownloader.exe'
+          file: 'Release/MapDownloader.exe'
           tag: ${{ github.ref }}
